@@ -1,0 +1,69 @@
+/* Kosheru - Estilos de Tablas del Panel de Administración */
+.admin-table-container {
+  background-color: var(--color-bg-card);
+  border-radius: var(--borde-radio-lg);
+  border: 1px solid var(--color-borde-card);
+  box-shadow: var(--sombra-suave);
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.admin-table th {
+  background-color: var(--color-bg-panel);
+  color: var(--color-texto-blanco);
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  padding: 1rem 1.2rem;
+  text-align: left;
+  border-bottom: 2px solid var(--color-borde-card);
+}
+
+.admin-table td {
+  padding: 1rem 1.2rem;
+  border-bottom: 1px solid var(--color-borde-card);
+  color: var(--color-texto-blanco);
+}
+
+.admin-table tr:hover {
+  background-color: var(--color-bg-panel);
+}
+
+.action-btn-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-action-edit {
+  background-color: var(--color-alerta);
+  color: #fff;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--borde-radio-sm);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.btn-action-delete {
+  background-color: var(--color-error);
+  color: #fff;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--borde-radio-sm);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.btn-action-view {
+  background-color: var(--color-rojo-kosheru);
+  color: #fff;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--borde-radio-sm);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
